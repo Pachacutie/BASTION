@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+.venv/
+venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project-specific
+sample-agreements/
+CLAUDE.md
+AGENTS.md
+MASON_REFERENCE.md
+.claude/
+docs/superpowers/
+
+# Standalone sibling repos that sometimes get cloned into BASTION's tree
+bastion-compat-check/
+bastion-cost-engine/

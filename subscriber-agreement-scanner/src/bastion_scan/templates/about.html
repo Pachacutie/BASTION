@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About — BASTION Contract Scan</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6;color:#e6edf3;background:#0d1117;min-height:100vh}
+nav{max-width:900px;margin:0 auto;padding:1rem 1.5rem;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #30363d}
+nav a{color:#e6edf3;text-decoration:none;font-weight:600;font-size:1rem}
+nav a:hover{color:#58a6ff}
+nav .nav-links{display:flex;gap:1.5rem}
+nav .nav-links a{font-weight:400;font-size:0.9rem;color:#8b949e}
+nav .nav-links a:hover{color:#58a6ff}
+.container{max-width:900px;margin:0 auto;padding:2rem 1.5rem}
+h2{font-size:1.2rem;color:#e6edf3;margin-bottom:0.5rem;margin-top:1.5rem}
+h2:first-child{margin-top:0}
+p{color:#8b949e;margin-bottom:1rem;font-size:0.95rem}
+ul{padding-left:1.5rem;margin:0.5rem 0 1rem}
+li{color:#8b949e;margin-bottom:0.3rem;font-size:0.95rem}
+a{color:#58a6ff;text-decoration:none}
+a:hover{text-decoration:underline}
+.back-link{text-align:center;margin-top:2rem;font-size:0.9rem}
+footer{max-width:900px;margin:2rem auto 1.5rem;padding:1rem 1.5rem 0;border-top:1px solid #30363d;text-align:center;font-size:0.8rem;color:#8b949e}
+footer a{color:#58a6ff;text-decoration:none}
+</style>
+</head>
+<body>
+<nav>
+    <a href="/">BASTION Contract Scan</a>
+    <div class="nav-links">
+        <a href="/about">About</a>
+    </div>
+</nav>
+<div class="container">
+
+<h2>What This Tool Does</h2>
+<p>BASTION Contract Scan reads your contract and flags the clauses that could cost you money, limit your rights, or lock you in. It detects 39 red flag patterns across security, financial, privacy, and general consumer protection categories.</p>
+<p>Built by someone with a decade of experience in the home security industry — but it works on any contract: telecom, gym, SaaS, solar, rent-to-own, insurance.</p>
+
+<h2>How It Works</h2>
+<ul>
+    <li>Upload a PDF or paste text — the scanner extracts and analyzes the language</li>
+    <li>Each clause is matched against a pattern library of predatory contract terms</li>
+    <li>Negation-aware: "there is no early termination fee" won't trigger a false alarm</li>
+    <li>Readability scoring shows when a contract is written to confuse you</li>
+    <li>Results are color-coded: red (serious), yellow (watch out), green (informational)</li>
+</ul>
+
+<h2>Limitations</h2>
+<ul>
+    <li>This is pattern matching, not legal advice. It catches common predatory language but can't interpret every clause in context.</li>
+    <li>Unusual phrasing or heavily obfuscated language may not trigger flags.</li>
+    <li>OCR quality on scanned PDFs affects accuracy — clean digital PDFs work best.</li>
+    <li>The tool identifies risk areas. A lawyer interprets what they mean for your situation.</li>
+</ul>
+
+<h2 id="your-data">About Your Data</h2>
+<p>This tool collects nothing. Zero.</p>
+<ul>
+    <li>No accounts. No sign-ups. No cookies.</li>
+    <li>No analytics. No tracking pixels. No third-party scripts.</li>
+    <li>Your contract is processed in memory and immediately deleted. We never store, log, or read your files.</li>
+    <li>For complete privacy, install locally — your contract never leaves your machine.</li>
+</ul>
+<p>The home security industry profits from capturing your data. This tool proves you don't need to give it up to make an informed decision.</p>
+
+<h2>Report Missing Flags</h2>
+<p>Found a predatory clause we don't detect? <a href="https://github.com/Pachacutie/bastion-contract-scan/issues/new?title=Missing+flag:+[description]" target="_blank" rel="noopener">Report it on GitHub</a>.</p>
+
+<div class="back-link"><a href="/">&larr; Back to Contract Scan</a></div>
+</div>
+<footer>
+    Part of <a href="https://github.com/Pachacutie/BASTION">BASTION</a> — open-source tools for smarter home security decisions.
+</footer>
+</body>
+</html>

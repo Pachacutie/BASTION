@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bastion-scan
+    runtime: docker
+    plan: free
+    dockerfilePath: ./subscriber-agreement-scanner/Dockerfile
+    dockerContext: ./subscriber-agreement-scanner
+    envVars:
+      - key: BASTION_HOSTED
+        value: "true"
